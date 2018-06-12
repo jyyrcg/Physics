@@ -1,0 +1,83 @@
+/* header style */
+.header{
+  position: fixed;
+  width:100%;
+  text-align: center;
+  background-color: rgb(242, 242, 242);
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  color: rgb(89, 89, 89);
+  z-index: 99 !important;
+}
+.headerTab{
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 16%;
+  float: left;
+  display: inline;
+  background-color: rgb(242, 242, 242);
+}
+
+/** start drop down style */
+.dropbtn {
+    background-color: rgb(242, 242, 242);
+    color: rgb(89, 89, 89);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: serif;
+}
+
+.dropbtn:hover, .dropbtn:focus, #EMTab:hover,#honorsTab:hover,#homeTab:hover,#aboutTab:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+a {
+  color: rgb(89, 89, 89);
+  padding: 12px 16px;
+  text-decoration: none;
+}
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+/*end drop down styple */
+
+footer{
+  text-align: center;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.content{
+  margin-top: 50px;
+  padding: 10px;
+}
