@@ -1,6 +1,6 @@
 # Physics
-git clone https://github.com/username/username.github.io
-cd username.github.io
+git clone https://github.com/jyyrcg/jyyrcg.github.io
+cd jyyrcg.github.io
 echo "Hello World" > index.html
 git add --all
 git commit -m "Initial commit"
